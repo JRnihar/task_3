@@ -1,0 +1,72 @@
+.hr {
+    width: 400px;
+    margin-left: 89px;
+}
+
+.input1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 0px solid white
+}
+
+.signup {
+    margin-top: 109px;
+    margin-left: 196px;
+    padding-top: 20px
+}
+
+.attendance {
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #1678CB;
+    color: white;
+    width: 480px;
+    margin-Left: 480px;
+    border-Radius: 5px;
+    text-align: center;
+}
+
+@media only screen and (max-width:576px) {
+    .hr {
+        width: 333px;
+        margin-left: 11px;
+    }
+
+    .input1 {
+        margin-left: 11px !important;
+
+        
+    }
+    input:focus{
+        
+        outline: none !important;
+        
+    }
+
+    .signup {
+
+        margin-left: 136px;
+    }
+
+    .next {
+        margin-left: 120px !important;
+    }
+
+    .account {
+        margin-left: 60px !important;
+    }
+
+    .attendance {
+        margin-left: 31px !important;
+
+
+
+        font-size: 24px;
+        background-color: #1678CB;
+        color: white;
+        width: 341px;
+        border-Radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
